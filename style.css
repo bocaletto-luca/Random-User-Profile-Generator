@@ -1,0 +1,31 @@
+   body {
+      background-color: #f8f9fa;
+      padding-top: 40px;
+      /* Extra padding at the bottom so the fixed footer doesn't overlap content */
+      padding-bottom: 80px;
+    }
+    /* Container for the main content */
+    .container {
+      max-width: 1000px;
+    }
+    /* Styling for the header */
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    /* Custom styles for the user card; uses Bootstrap card classes as base */
+    .user-card {
+      margin-bottom: 20px;
+    }
+    /* Fixed footer styling with centered text */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #343a40;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 0.9rem;
+    }
